@@ -18,7 +18,7 @@ namespace WebApplication7.Models
         }
         public string FisrtName { get; set; }
         public string LastName { get; set; }
-        public string PhoneNumber { get; set; }
+    
 
     }
 

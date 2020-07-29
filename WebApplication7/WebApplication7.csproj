@@ -188,6 +188,10 @@
     <Compile Include="Migrations\202007250716062_added fnamelastbnamephnumbertoregisterpage.Designer.cs">
       <DependentUpon>202007250716062_added fnamelastbnamephnumbertoregisterpage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007290656394_deletdaddditonalphonenumber.cs" />
+    <Compile Include="Migrations\202007290656394_deletdaddditonalphonenumber.Designer.cs">
+      <DependentUpon>202007290656394_deletdaddditonalphonenumber.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -401,6 +405,9 @@
     <EmbeddedResource Include="Migrations\202007250716062_added fnamelastbnamephnumbertoregisterpage.resx">
       <DependentUpon>202007250716062_added fnamelastbnamephnumbertoregisterpage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007290656394_deletdaddditonalphonenumber.resx">
+      <DependentUpon>202007290656394_deletdaddditonalphonenumber.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -422,15 +429,14 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63219</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>https://localhost:44373/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>https://webapplicationdemo1.azurewebsites.net/</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
